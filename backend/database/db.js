@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = mongoose.Schema.Types.ObjectId;
 mongoose.connect(
-  "mongodb+srv://piyusshthakur5:Devops12%40@cluster0.oewvf0b.mongodb.net/course-app"
+  ""
 );
 
 const userSchema = new Schema({
